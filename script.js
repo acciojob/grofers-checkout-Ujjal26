@@ -11,6 +11,7 @@ const getSum = () => {
 	});
 	const table= document.querySelector('.table');
 	const tr = document.createElement('tr');
+	tr.id('ans');
 	const td = document.createElement('td');
 
 	td.setAttribute('data-ns-test', 'grandTotal');
